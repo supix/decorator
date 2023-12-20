@@ -14,6 +14,7 @@ if __name__ == "__main__":
     print(latte_e_caffe_dolce_schiumato_con_cacao.name())
 
     latte = Latte()
-    latte_e_cacao = Cacao(latte)
+    latte_dolce = Zucchero(latte)
+    latte_molto_dolce = Zucchero(latte_dolce)
 
-    print(latte_e_cacao.name())
+    print(latte_molto_dolce.name())
